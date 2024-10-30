@@ -1,79 +1,61 @@
-(function (_0x101a88, _0x62c55f) {
-    const _0x3ce3fe = _0x45f0, _0x41148c = _0x101a88();
-    while (!![]) {
-        try {
-            const _0x406303 = parseInt(_0x3ce3fe(0x1e0)) / 0x1 + -parseInt(_0x3ce3fe(0x1df)) / 0x2 + -parseInt(_0x3ce3fe(0x1e6)) / 0x3 + -parseInt(_0x3ce3fe(0x1dc)) / 0x4 * (parseInt(_0x3ce3fe(0x1d7)) / 0x5) + -parseInt(_0x3ce3fe(0x1d8)) / 0x6 * (-parseInt(_0x3ce3fe(0x1ce)) / 0x7) + -parseInt(_0x3ce3fe(0x1cb)) / 0x8 * (-parseInt(_0x3ce3fe(0x1d0)) / 0x9) + -parseInt(_0x3ce3fe(0x1d1)) / 0xa;
-            if (_0x406303 === _0x62c55f)
-                break;
-            else
-                _0x41148c['push'](_0x41148c['shift']());
-        } catch (_0xc3861) {
-            _0x41148c['push'](_0x41148c['shift']());
-        }
+import config from '../../set.cjs';
+
+const flirtList = [
+  "Neither a Gift is desired nor a Rose,\nI just want to be your lover,\nI want one kiss every day.",
+  "Some like crazy lovers, some like admirers,\nBut I only love seeing you smile.",
+  "In waiting for your free time,\nI remain in love even while away.\nAnd only with your will can my fate change.\nOtherwise, even in victory, I remain in loss.",
+  "Don't get upset with me,\nOh my moon,\nWithout you, even my upcoming Eid\nfeels incomplete.",
+  "I give you a kiss 😘,\nIf you don't like it,\nYou can return it 😜.",
+  "H - yes 😅,\nM - my 🙃,\nM - beloved 😍.",
+  "The tea is hot, the water is cold,\nI'm fine, you tell me,\nhow are you dear 😘🙃😅.",
+  "Listening to you,\nI blushed.\nYou called, so here I am 😍🥰😘.",
+  "I'm like a crazy kid 🙃,\nbut my heart is true 😘,\na little wild 😍,\nbut struck by your love 🥰💌.",
+  "This is the first time in 17-18 years,\nDay and night I'm immersed only\nin thoughts of you 😜😚😅.",
+  "I don't want the moon, nor the sky,\nNot much, just a glimpse of you.",
+  "Yes, we will love 🥰,\nAttack straight at the heart 💘,\nDarling don't worry,\nI'll never let you out of my heart 😘..",
+  "In a black suit 👗,\nYou look so cute 👱‍♀️.\nNo pistol 🔫, no dagger ⚔️,\nYour eyes 😍 do the shooting.",
+  "A sea of feelings comes into my heart,\nWhen you reply within a minute 😍😘🤩.",
+  "Banaras is famous for its paan,\nSay 'I love you', my dear 😍🙃.\n\n(\\___/)\n( ^ _ ^)\n/ >❤️\nI love you.",
+  "In one house, 'I Love You' lived,\nand 'I Miss You' lived.\n'I Miss You' left, now guess who is left in the house? 🤔😜.",
+  "Actually, my sister wants a sister-in-law\nfor her birthday,\nSo will you marry me? 😜😍.",
+  "I promise,\nI'll always lose when we fight.\nTogether, we'll climb the remaining steps of life 😘😍.",
+  "Kohl in the eyes,\nEarrings in the ears,\nAsk your sister,\nWill she be my sister-in-law? 😜🙃😘.",
+  "Black is called 'kaala' in Hindi.\nMake your brother-in-law my brother-in-law 😅.",
+  "I'm smitten by your sweet smile,\nSince I saw you, I've fallen in love 😍🥰😘.\n\n(\\___/)\n( ^ _ ^)\n/ >❤️\nI love you.",
+  "Love should be like this..😍,\nTalk on one day,😘,\nMeet the next day, ❣️,\nAnd get married on the third day ❤️.",
+  "Not sugar, we'll add love to the milk.\nCome close, we'll serve tea with our own hands 🙃😊.\n\n(\\__/)\n( • - •)\n/ >☕👌.",
+  "You're my chocolate,\nI'm your pasta.\nSay 'I love you',\nFor God's sake 😍😜😘.",
+  "Is it love or something else,\nI don't understand,\nYou're just a beautiful thought 🥰,\nThat doesn't leave my heart 😍.",
+  "Even a mirror can't tell you\nabout yourself.\nCome, see in my eyes\nhow beautiful you look when you're angry 🙈😍😘.",
+  "Life is short, the road is long 😍😘,\nBecome my wife,\nFor God's sake ❣️.",
+  "Enough of the fighting,\nAsk your dad,\nWill he make me his son-in-law? 😜😚😆.",
+  "I'll share every thought of my heart with you ❤️,\nI'll care for you more than my life 🥰😍🙈.",
+  "You've been living in my heart for so long,\nYou need to pay rent, don't you?"
+];
+
+function flirrt() {
+  // Get a random shayari
+  const randomIndex = Math.floor(Math.random() * flirtList.length);
+  return flirtList[randomIndex];
+}
+
+const flirting = async (m, Matrix) => {
+  const prefix = config.PREFIX;
+const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
+const text = m.body.slice(prefix.length + cmd.length).trim();
+  const validCommands = ['flirt'];
+
+  if (validCommands.includes(cmd)) {
+    try {
+
+      const result = await flirrt();
+
+      await Matrix.sendMessage(m.from, { text: result, mentions: [m.sender] }, { quoted: m });
+    } catch (error) {
+      console.error('Error fetching flirt message:', error);
+      await Matrix.sendMessage(m.from, { text: "Failed to retrieve flirt message. Please try again later." });
     }
-}(_0x5edf, 0x746aa));
-function _0x45f0(_0x4335df, _0xd58113) {
-    const _0x5edfe3 = _0x5edf();
-    return _0x45f0 = function (_0x45f034, _0x525842) {
-        _0x45f034 = _0x45f034 - 0x1ca;
-        let _0x1ef058 = _0x5edfe3[_0x45f034];
-        return _0x1ef058;
-    }, _0x45f0(_0x4335df, _0xd58113);
-}
-function _0x5edf() {
-    const _0x5a52f3 = [
-        '100350wSZANo',
-        'length',
-        'shizo',
-        'text',
-        '715012eklDcT',
-        'Failed\x20to\x20fetch\x20flirting\x20Message:\x20',
-        'slice',
-        '239346CYMtYF',
-        '158110WQlGWU',
-        'includes',
-        'startsWith',
-        'error',
-        'body',
-        'split',
-        '996438zGDiOj',
-        'json',
-        'Error\x20fetching\x20flirt\x20message:',
-        'match',
-        '88rAbTVZ',
-        'toLowerCase',
-        'flirt',
-        '308sOhCvQ',
-        'result',
-        '449793ruQoYm',
-        '3363430TBbkzH',
-        'from',
-        'sender',
-        'sendMessage',
-        'Failed\x20to\x20retrieve\x20flirt\x20message.\x20Please\x20try\x20again\x20later.',
-        'https://shizoapi.onrender.com/api/texts/flirt?apikey=',
-        '5bbJGPQ'
-    ];
-    _0x5edf = function () {
-        return _0x5a52f3;
-    };
-    return _0x5edf();
-}
-import _0x1867fa from 'node-fetch';
-const flirting = async (_0x518d64, _0x22d31e) => {
-    const _0x171ae3 = _0x45f0, _0xcbc455 = _0x518d64[_0x171ae3(0x1e4)][_0x171ae3(0x1ca)](/^[\\/!#.]/), _0x3a8375 = _0xcbc455 ? _0xcbc455[0x0] : '/', _0x1b04e9 = _0x518d64[_0x171ae3(0x1e4)][_0x171ae3(0x1e2)](_0x3a8375) ? _0x518d64[_0x171ae3(0x1e4)][_0x171ae3(0x1de)](_0x3a8375[_0x171ae3(0x1d9)])[_0x171ae3(0x1e5)]('\x20')[0x0][_0x171ae3(0x1cc)]() : '', _0x18b608 = [_0x171ae3(0x1cd)];
-    if (_0x18b608[_0x171ae3(0x1e1)](_0x1b04e9))
-        try {
-            const _0x2d9ff8 = _0x171ae3(0x1da), _0x370516 = await _0x1867fa(_0x171ae3(0x1d6) + _0x2d9ff8);
-            if (!_0x370516['ok'])
-                throw new Error(_0x171ae3(0x1dd) + await _0x370516[_0x171ae3(0x1db)]());
-            const _0x5708a0 = await _0x370516[_0x171ae3(0x1e7)](), _0x2c72b5 = _0x5708a0[_0x171ae3(0x1cf)];
-            await _0x22d31e[_0x171ae3(0x1d4)](_0x518d64[_0x171ae3(0x1d2)], {
-                'text': _0x2c72b5,
-                'mentions': [_0x518d64[_0x171ae3(0x1d3)]]
-            }, { 'quoted': _0x518d64 });
-        } catch (_0x25e6b5) {
-            console[_0x171ae3(0x1e3)](_0x171ae3(0x1e8), _0x25e6b5), await _0x22d31e[_0x171ae3(0x1d4)](_0x518d64[_0x171ae3(0x1d2)], { 'text': _0x171ae3(0x1d5) });
-        }
+  }
 };
+
 export default flirting;

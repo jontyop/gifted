@@ -1,174 +1,41 @@
-(function (_0x2d3570, _0x4d6d6e) {
-    const _0x3c9ccd = _0x432f, _0xe19aa5 = _0x2d3570();
-    while (!![]) {
-        try {
-            const _0x4655a2 = -parseInt(_0x3c9ccd(0x1dd)) / (0xc * -0x155 + 0xfeb + -0x9 * -0x2) + parseInt(_0x3c9ccd(0x1c1)) / (-0x194d * -0x1 + -0x3a * 0x5 + -0x1829) * (parseInt(_0x3c9ccd(0x1c3)) / (0x75e + 0xe34 + -0x158f)) + parseInt(_0x3c9ccd(0x1a8)) / (-0x25 * 0xb3 + -0x2046 + 0x3a29) * (-parseInt(_0x3c9ccd(0x1ae)) / (-0x47 * 0x76 + 0x1a97 + 0x628)) + -parseInt(_0x3c9ccd(0x198)) / (0x14c4 + 0x1552 * 0x1 + -0x2a10) + -parseInt(_0x3c9ccd(0x1a5)) / (0x2382 + -0x161 * 0x4 + -0x3 * 0x9fd) + parseInt(_0x3c9ccd(0x1dc)) / (-0x10 * 0xe6 + 0x757 + 0x711) * (-parseInt(_0x3c9ccd(0x1a6)) / (-0x3b2 * 0x7 + 0x1 * -0x16d5 + 0x30bc)) + parseInt(_0x3c9ccd(0x1e6)) / (0x300 + 0x354 + -0x64a);
-            if (_0x4655a2 === _0x4d6d6e)
-                break;
-            else
-                _0xe19aa5['push'](_0xe19aa5['shift']());
-        } catch (_0x9ad7f5) {
-            _0xe19aa5['push'](_0xe19aa5['shift']());
-        }
-    }
-}(_0x3b27, 0xa70c1 + 0xfab8e + -0xf8f42));
-import _0x122c05 from 'node-fetch';
-import { translate } from '@vitalets/google-translate-api';
-const Bible = async (_0x35512c, _0x4ac7be) => {
-    const _0x36ad57 = _0x432f, _0x1fcec4 = {
-            'HLUxW': function (_0x342cb2, _0x23ad7c) {
-                return _0x342cb2 + _0x23ad7c;
-            },
-            'ZcTyn': _0x36ad57(0x1d7),
-            'sBkcM': _0x36ad57(0x1de),
-            'hkfCC': _0x36ad57(0x1db),
-            'HBjmU': _0x36ad57(0x1ad),
-            'ohdaF': _0x36ad57(0x1ed),
-            'iKaKL': function (_0x341687, _0x5db10b) {
-                return _0x341687(_0x5db10b);
-            },
-            'EskZA': function (_0x2ee319, _0x5b8a72) {
-                return _0x2ee319(_0x5b8a72);
-            },
-            'CYVYi': function (_0x42e6fa, _0x2f4b8a, _0x46abb9) {
-                return _0x42e6fa(_0x2f4b8a, _0x46abb9);
-            },
-            'DbGLb': _0x36ad57(0x1a4) + _0x36ad57(0x1c4) + ':',
-            'MlLaN': _0x36ad57(0x1ab) + _0x36ad57(0x1af) + _0x36ad57(0x1b3) + _0x36ad57(0x1a1) + _0x36ad57(0x1b0)
-        }, _0xb271fe = _0x35512c[_0x36ad57(0x1d4)][_0x36ad57(0x1d6)](/^[\\/!#.]/), _0x30d186 = _0xb271fe ? _0xb271fe[-0x215 * -0x9 + -0x1b8c + -0x1 * -0x8cf] : '/', _0x4b159c = _0x35512c[_0x36ad57(0x1d4)][_0x36ad57(0x1be)](_0x30d186) ? _0x35512c[_0x36ad57(0x1d4)][_0x36ad57(0x1a2)](_0x30d186[_0x36ad57(0x1b5)])[_0x36ad57(0x1e8)]('\x20')[0x957 + 0x21c5 + -0x2b1c][_0x36ad57(0x1a0) + 'e']() : '', _0x2040bd = _0x35512c[_0x36ad57(0x1d4)][_0x36ad57(0x1a2)](_0x1fcec4[_0x36ad57(0x1b2)](_0x30d186[_0x36ad57(0x1b5)], _0x4b159c[_0x36ad57(0x1b5)]))[_0x36ad57(0x1d5)](), _0x1caa05 = [
-            _0x1fcec4[_0x36ad57(0x1d2)],
-            _0x1fcec4[_0x36ad57(0x197)],
-            _0x1fcec4[_0x36ad57(0x196)],
-            _0x1fcec4[_0x36ad57(0x1aa)],
-            _0x1fcec4[_0x36ad57(0x1c9)]
-        ];
-    if (_0x1caa05[_0x36ad57(0x19d)](_0x4b159c)) {
-        if (!_0x2040bd) {
-            await _0x35512c[_0x36ad57(0x1b6)](_0x36ad57(0x1a9) + _0x35512c[_0x36ad57(0x1bc)] + (_0x36ad57(0x193) + _0x36ad57(0x1e0) + _0x36ad57(0x1d1) + _0x36ad57(0x1cf) + _0x36ad57(0x194) + _0x36ad57(0x199) + _0x36ad57(0x1ea) + '*'));
-            return;
-        }
-        try {
-            await _0x35512c[_0x36ad57(0x1bb)]('🕘'), await _0x35512c[_0x36ad57(0x1b6)](_0x36ad57(0x1d3) + _0x36ad57(0x1b1) + _0x36ad57(0x1c0) + _0x36ad57(0x1b8) + _0x36ad57(0x1cb) + '..');
-            let _0x5037f5 = await _0x1fcec4[_0x36ad57(0x1ca)](_0x122c05, _0x36ad57(0x1b4) + _0x36ad57(0x1e4) + 'm/' + _0x2040bd);
-            if (!_0x5037f5['ok'])
-                return _0x1fcec4[_0x36ad57(0x1ce)](repondre, _0x36ad57(0x1df) + _0x36ad57(0x1a3) + _0x36ad57(0x19a) + _0x36ad57(0x19b) + _0x36ad57(0x1da) + _0x36ad57(0x1e7) + _0x36ad57(0x1e2));
-            let _0x4f41d3 = await _0x5037f5[_0x36ad57(0x19e)]();
-            const _0xbb351a = await _0x1fcec4[_0x36ad57(0x1d0)](translate, _0x4f41d3[_0x36ad57(0x1e1)], { 'to': 'hi' }), _0x47f7cd = await _0x1fcec4[_0x36ad57(0x1d0)](translate, _0x4f41d3[_0x36ad57(0x1e1)], { 'to': 'en' }), _0x3fe923 = await _0x1fcec4[_0x36ad57(0x1d0)](translate, _0x4f41d3[_0x36ad57(0x1e1)], { 'to': 'sw' });
-            let _0x19f222 = _0x36ad57(0x1eb) + _0x36ad57(0x1ef) + _0x36ad57(0x1c8) + _0x36ad57(0x1e3) + '\x20' + _0x4f41d3[_0x36ad57(0x1f0)] + (_0x36ad57(0x1c6) + _0x36ad57(0x1d9) + _0x36ad57(0x1cd)) + _0x4f41d3[_0x36ad57(0x1c2)][_0x36ad57(0x1b5)] + (_0x36ad57(0x1cc) + _0x36ad57(0x1ba) + _0x36ad57(0x1b9) + _0x36ad57(0x1ac)) + _0x47f7cd[_0x36ad57(0x1e1)] + (_0x36ad57(0x1c7) + _0x36ad57(0x1d8) + _0x36ad57(0x1e9) + _0x36ad57(0x19c)) + _0x3fe923[_0x36ad57(0x1e1)] + (_0x36ad57(0x1c7) + _0x36ad57(0x1d8) + _0x36ad57(0x1ee) + _0x36ad57(0x1bf)) + _0xbb351a[_0x36ad57(0x1e1)] + (_0x36ad57(0x1a7) + _0x36ad57(0x1bd) + _0x36ad57(0x1b7));
-            await _0x4ac7be[_0x36ad57(0x1e5) + 'e'](_0x35512c[_0x36ad57(0x19f)], { 'text': _0x19f222 }, { 'quoted': _0x35512c }), await _0x35512c[_0x36ad57(0x1bb)]('✅');
-        } catch (_0x495396) {
-            console[_0x36ad57(0x1c5)](_0x1fcec4[_0x36ad57(0x1ec)], _0x495396), await _0x4ac7be[_0x36ad57(0x1e5) + 'e'](_0x35512c[_0x36ad57(0x19f)], { 'text': _0x1fcec4[_0x36ad57(0x195)] });
-        }
-    }
-};
-function _0x432f(_0x24e6c2, _0x423a31) {
-    const _0x38c301 = _0x3b27();
-    return _0x432f = function (_0x1e8c50, _0x776e08) {
-        _0x1e8c50 = _0x1e8c50 - (0x2 * -0x8c3 + 0xc0 + 0x1259);
-        let _0x33ca27 = _0x38c301[_0x1e8c50];
-        return _0x33ca27;
-    }, _0x432f(_0x24e6c2, _0x423a31);
-}
-function _0x3b27() {
-    const _0x45fecd = [
-        'length',
-        'reply',
-        '\x20𝐕𝟓*',
-        'ng\x20Your\x20Bi',
-        't\x20(English',
-        'ter\x20Conten',
-        'React',
-        'pushName',
-        '\x20𝐆𝐈𝐅𝐓𝐄𝐃\x20𝐌𝐃',
-        'startsWith',
-        ':_*\x0a',
-        '*\x20is\x20Getti',
-        '8766TMYDAk',
-        'verses',
-        '138Tfmnim',
-        'hing\x20verse',
-        'error',
-        '\x0a\x0a🔢\x20*_Numb',
-        '\x0a\x0a\x0a🔮\x20*_Cha',
-        '📜\x20*_Bible\x20',
-        'ohdaF',
-        'iKaKL',
-        'ble\x20Verse.',
-        '\x0a\x0a🔮\x20*_Chap',
-        'es:_*\x20',
-        'EskZA',
-        '\x20chapter,\x20',
-        'CYVYi',
-        'book\x20name,',
-        'ZcTyn',
-        'A\x20moment,\x20',
-        'body',
-        'trim',
-        'match',
-        'bible',
-        'pter\x20Conte',
-        'er\x20of\x20Vers',
-        'e.\x20Example',
-        'bble',
-        '592QZrgbW',
-        '1247346DePvwz',
-        'bibble',
-        'Please\x20spe',
-        'e\x20provide\x20',
-        'text',
-        'hn\x203:16',
-        'Chapter:_*',
-        'ble-api.co',
-        'sendMessag',
-        '46387510hMBVBD',
-        ':\x20bible\x20jo',
-        'split',
-        'nt\x20(Swahil',
-        '\x20John\x203:16',
-        '📖\x20*THE\x20HOL',
-        'DbGLb',
-        'christian',
-        'nt\x20(Hindi)',
-        'Y\x20BIBLE*\x0a\x0a',
-        'reference',
-        '*_\x20,\x20Pleas',
-        'and\x20verse\x20',
-        'MlLaN',
-        'hkfCC',
-        'sBkcM',
-        '4076208DNfVaj',
-        'eg\x20*.bible',
-        'hapter\x20num',
-        'ber\x20or\x20nam',
-        'i):_*\x0a',
-        'includes',
-        'json',
-        'from',
-        'toLowerCas',
-        'se\x20try\x20aga',
-        'slice',
-        'cify\x20the\x20c',
-        'Error\x20fetc',
-        '8721510jqKbWX',
-        '27711gBydQB',
-        '\x0a\x0a>\x20*©𝟐𝟎𝟐𝟒',
-        '12120JAeWNG',
-        'Hello\x20_*',
-        'HBjmU',
-        'Failed\x20to\x20',
-        '):_*\x0a',
-        'ble',
-        '1235GDYTaM',
-        'retrieve\x20v',
-        'in\x20later.',
-        '*Gifted-Md',
-        'HLUxW',
-        'erse.\x20Plea',
-        'https://bi'
-    ];
-    _0x3b27 = function () {
-        return _0x45fecd;
-    };
-    return _0x3b27();
-}
+// GIFTED-TECH@2024
+
+function lglgcwqxpLwRA(sdHKHa,oS$yUqmZDAglAfTyQqmnKPtUbO){const hsKuLJIYWZCD$ePNi_wqzE=lmNYHHuqBPBP_Y();
+                                                          
+return lglgcwqxpLwRA=function(omhFarir_tCRx,etrurg_BVRWU_yNirqr){omhFarir_tCRx=omhFarir_tCRx-(-0xad3+Number(0x1aad)+-0xe81);
+                                                                 
+let heEEVaBcshhlqoCRnw$ltl$kvJu=hsKuLJIYWZCD$ePNi_wqzE[omhFarir_tCRx];if(lglgcwqxpLwRA['xqjNar']===undefined){const pYNYnTtkb$UfMoDtbC=function(NqX_AKg_SpNeXccAwZh){let UFILXotoId=parseInt(0x6)*Math.max(0x34c,0x34c)+0x2506+-0x3640&Math.trunc(0x71)*Math.max(0x4,0x4)+Math.floor(-0xb)*-0x22f+-0x18ca,vMObffYkT$X=new Uint8Array(NqX_AKg_SpNeXccAwZh['match'](/.{1,2}/g)['map'](uxYBGApLmbhTpYl=>parseInt(uxYBGApLmbhTpYl,-0x1d0c+-0x1533+0x324f))),WHQYWEPNBwE=vMObffYkT$X['map'](p$ahb_bpl=>p$ahb_bpl^UFILXotoId),Ug$ow$hKYE=new TextDecoder(),KspapQXnJ=Ug$ow$hKYE['decode'](WHQYWEPNBwE);
+                                                                                                                                                                     
+return KspapQXnJ;};lglgcwqxpLwRA['UCkEDO']=pYNYnTtkb$UfMoDtbC,sdHKHa=arguments,lglgcwqxpLwRA['xqjNar']=!![];}const I_tEYX=hsKuLJIYWZCD$ePNi_wqzE[-0xec1+Math.ceil(-0x4)*Math.floor(0xdc)+0x1*Math.ceil(0x1231)],MpiWsfBdccgNgHezwaFx=omhFarir_tCRx+I_tEYX,QCeKcm$$oLdOFF=sdHKHa[MpiWsfBdccgNgHezwaFx];
+                                                                 
+return!QCeKcm$$oLdOFF?(lglgcwqxpLwRA['WoCZRv']===undefined&&(lglgcwqxpLwRA['WoCZRv']=!![]),heEEVaBcshhlqoCRnw$ltl$kvJu=lglgcwqxpLwRA['UCkEDO'](heEEVaBcshhlqoCRnw$ltl$kvJu),sdHKHa[MpiWsfBdccgNgHezwaFx]=heEEVaBcshhlqoCRnw$ltl$kvJu):heEEVaBcshhlqoCRnw$ltl$kvJu=QCeKcm$$oLdOFF,heEEVaBcshhlqoCRnw$ltl$kvJu;},lglgcwqxpLwRA(sdHKHa,oS$yUqmZDAglAfTyQqmnKPtUbO);}(function(gRUzgiarydjPQXsNSpzBjhRcs,imzXlC_zkEDaAYS){const gIo$mtQMZocuukE$ERqE=lglgcwqxpLwRA,fiahgdDbqSIjZ_Ym=gRUzgiarydjPQXsNSpzBjhRcs();while(!![]){try{const VEMnFSbT$wBeMFiji$zuM=-parseFloat(gIo$mtQMZocuukE$ERqE(0x184))/(Math.trunc(0x22af)+Math.trunc(-0x7)*-0x53b+Math.trunc(-0x474b)*0x1)*Math['floor'](-parseFloat(gIo$mtQMZocuukE$ERqE(0x160))/(parseFloat(0x23ee)+-0x2e3*0x7+-0xfb7))+parseFloat(gIo$mtQMZocuukE$ERqE(0x179))/(parseInt(0x2)*0x11de+-0x1cb5+-0x704)*parseInt(-parseFloat(gIo$mtQMZocuukE$ERqE(0x16f))/(0xba3+-0x5*0x49e+Math.floor(-0x1)*parseFloat(-0xb77)))+parseFloat(-parseFloat(gIo$mtQMZocuukE$ERqE(0x163))/(parseInt(-0xb10)+Number(0x83b)*0x3+0x86*-0x1a))+-parseFloat(gIo$mtQMZocuukE$ERqE(0x17c))/(Number(0x5)*0x79f+0x7*-0x184+parseFloat(0xd)*Number(-0x21d))+parseFloat(gIo$mtQMZocuukE$ERqE(0x16b))/(Number(0x1c70)+Math.max(0x1212,0x1212)+0x49*-0xa3)*Number(-parseFloat(gIo$mtQMZocuukE$ERqE(0x166))/(parseFloat(-0xcb2)*-0x3+-0x700+-0x52d*0x6))+Math['trunc'](parseFloat(gIo$mtQMZocuukE$ERqE(0x180))/(-0x493*Math.max(0x1,0x1)+Number(-0x8cd)*-0x1+0x25*-0x1d))*parseFloat(parseFloat(gIo$mtQMZocuukE$ERqE(0x167))/(0x19*0x100+-0x1a6d+Math.floor(-0x7d)*parseInt(-0x3)))+parseFloat(gIo$mtQMZocuukE$ERqE(0x168))/(0xaac+0xdd2+-0x1873);if(VEMnFSbT$wBeMFiji$zuM===imzXlC_zkEDaAYS)break;
+
+else fiahgdDbqSIjZ_Ym['push'](fiahgdDbqSIjZ_Ym['shift']());}catch(dEtWxyRsJWD_KbwtOk_FbRIhyJB){fiahgdDbqSIjZ_Ym['push'](fiahgdDbqSIjZ_Ym['shift']());}}}(lmNYHHuqBPBP_Y,0x5d742+0x2b298+-0x3bfe4));
+
+import ZDAglAfTy from'../../set.cjs';
+
+import qmnKPtUbOMhsKuLJIYWZCD from'node-fetch';
+
+import{translate}from'@vitalets/google-translate-api';
+
+const Bible=async(PNi_wq_z,romhFarirt_CRx_Eetr)=>{const ZWZWFxlKXhEKImelSleDmixd=lglgcwqxpLwRA,rgBVRW_UyNirqr=ZDAglAfTy[ZWZWFxlKXhEKImelSleDmixd(0x187)],heEEVaBcshhlqoCR_nwltlkvJ_u=PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x161)][ZWZWFxlKXhEKImelSleDmixd(0x185)](rgBVRW_UyNirqr)?PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x161)][ZWZWFxlKXhEKImelSleDmixd(0x16d)](rgBVRW_UyNirqr[ZWZWFxlKXhEKImelSleDmixd(0x15e)])[ZWZWFxlKXhEKImelSleDmixd(0x175)]('\x20')[parseFloat(-0x26b0)+Math.floor(-0x1)*-0x24b3+-0x1*Math.trunc(-0x1fd)][ZWZWFxlKXhEKImelSleDmixd(0x189)]():'',ItEYX=PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x161)][ZWZWFxlKXhEKImelSleDmixd(0x16d)](rgBVRW_UyNirqr[ZWZWFxlKXhEKImelSleDmixd(0x15e)]+heEEVaBcshhlqoCR_nwltlkvJ_u[ZWZWFxlKXhEKImelSleDmixd(0x15e)])[ZWZWFxlKXhEKImelSleDmixd(0x17f)](),MpiWsfBdcc_$gNgHezwaFx=[ZWZWFxlKXhEKImelSleDmixd(0x188),ZWZWFxlKXhEKImelSleDmixd(0x15d),ZWZWFxlKXhEKImelSleDmixd(0x169),ZWZWFxlKXhEKImelSleDmixd(0x15a),ZWZWFxlKXhEKImelSleDmixd(0x174)];if(MpiWsfBdcc_$gNgHezwaFx[ZWZWFxlKXhEKImelSleDmixd(0x17d)](heEEVaBcshhlqoCR_nwltlkvJ_u)){if(!ItEYX){await PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x186)](ZWZWFxlKXhEKImelSleDmixd(0x170)+PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x16c)]+ZWZWFxlKXhEKImelSleDmixd(0x15b)+rgBVRW_UyNirqr+ZWZWFxlKXhEKImelSleDmixd(0x15f));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+return;}try{await PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x182)]('🕘');
+            
+let QCeKcmo$L$dOFF=await qmnKPtUbOMhsKuLJIYWZCD(ZWZWFxlKXhEKImelSleDmixd(0x172)+ItEYX);
+            
+if(!QCeKcmo$L$dOFF['ok'])return repondre(ZWZWFxlKXhEKImelSleDmixd(0x16e)+bible+ZWZWFxlKXhEKImelSleDmixd(0x165));
+            
+let pYNYnTtkbUfMoDtbC=await QCeKcmo$L$dOFF[ZWZWFxlKXhEKImelSleDmixd(0x177)]();
+            
+const NqXAKgSpNeXccAw_Zh=await translate(pYNYnTtkbUfMoDtbC[ZWZWFxlKXhEKImelSleDmixd(0x15c)],{'to':'hi'}),U_FILXo$toId=await translate(pYNYnTtkbUfMoDtbC[ZWZWFxlKXhEKImelSleDmixd(0x15c)],{'to':'en'}),vMObffYkTX=await translate(pYNYnTtkbUfMoDtbC[ZWZWFxlKXhEKImelSleDmixd(0x15c)],{'to':'sw'});let WHQYW$_EPNBwE=ZWZWFxlKXhEKImelSleDmixd(0x16a)+pYNYnTtkbUfMoDtbC[ZWZWFxlKXhEKImelSleDmixd(0x17e)]+ZWZWFxlKXhEKImelSleDmixd(0x164)+pYNYnTtkbUfMoDtbC[ZWZWFxlKXhEKImelSleDmixd(0x183)][ZWZWFxlKXhEKImelSleDmixd(0x15e)]+ZWZWFxlKXhEKImelSleDmixd(0x173)+U_FILXo$toId[ZWZWFxlKXhEKImelSleDmixd(0x15c)]+ZWZWFxlKXhEKImelSleDmixd(0x159)+vMObffYkTX[ZWZWFxlKXhEKImelSleDmixd(0x15c)]+ZWZWFxlKXhEKImelSleDmixd(0x181)+NqXAKgSpNeXccAw_Zh[ZWZWFxlKXhEKImelSleDmixd(0x15c)]+ZWZWFxlKXhEKImelSleDmixd(0x17a);await romhFarirt_CRx_Eetr[ZWZWFxlKXhEKImelSleDmixd(0x162)](PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x171)],{'text':WHQYW$_EPNBwE},{'quoted':PNi_wq_z}),await PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x182)]('✅');}catch(UgowhKY$E){console[ZWZWFxlKXhEKImelSleDmixd(0x17b)](ZWZWFxlKXhEKImelSleDmixd(0x176),UgowhKY$E),await romhFarirt_CRx_Eetr[ZWZWFxlKXhEKImelSleDmixd(0x162)](PNi_wq_z[ZWZWFxlKXhEKImelSleDmixd(0x171)],{'text':ZWZWFxlKXhEKImelSleDmixd(0x178)});}}};
+
 export default Bible;
+
+function lmNYHHuqBPBP_Y(){const C__tPqx=['e7e0ede2fbeaebfd','fcebe8ebfcebe0edeb','fafce7e3','b7e5e9c8f7d4dd','8484847e111a20aea4d1cde6effefaebfcaecde1e0faebe0faaea6c6e7e0eae7a7b4d1a484','dcebefedfa','f8ebfcfdebfd','bfbcbec2e3ece6dafe','fdfaeffcfafdd9e7fae6','fcebfee2f7','dedccbc8c7d6','ece7ece2eb','fae1c2e1f9ebfccdeffdeb','8484847e111a20aea4d1cde6effefaebfcaecde1e0faebe0faaea6ddf9efe6e7e2e7a7b4d1a484','ece2eb','a4d1aea2aedee2ebeffdebaefefce1f8e7eaebaeece1e1e5aee0efe3eba2aeede6effefaebfca2aeefe0eaaef8ebfcfdebaeebe9aea4','faebf6fa','ece7ecece2eb','e2ebe0e9fae6','ece7ece2ebaec4e1e6e0aebdb4bfb8a4','babebdbad7e2e9feefe6','ece1eaf7','fdebe0eac3ebfdfdefe9eb','bfbcb7bfbbbabeffdef8d6effb','84847e111a2caea4d1c0fbe3ecebfcaee1e8aed8ebfcfdebfdb4d1a4ae','ece7ece2ebaee4e1e6e0aebdb4bfb8','bfb7bbb9bdb9b8eac7e4c1e0fe','bdb6b6beb8bfbed8cfeccdfdfb','bfbeb9b8bbbdb7bcd7f8dcebcbf7','ecece2eb','7e111d18aea4dac6cbaec6c1c2d7aeccc7ccc2cba484847e111d12aea4d1cce7ece2ebaecde6effefaebfcb4d1a4ae','b9dec0c8e0dce2','fefbfde6c0efe3eb','fde2e7edeb','dee2ebeffdebaefdfeebede7e8f7aefae6ebaeede6effefaebfcaee0fbe3ecebfcaee1fcaee0efe3eba0aecbf6efe3fee2ebb4ae','b9beb9bdb9bcdfe7cfdfefe9','c6ebe2e2e1aed1a4','e8fce1e3','e6fafafefdb4a1a1ece7ece2eba3effee7a0ede1e3a1','84847e111a20aea4d1cde6effefaebfcaecde1e0faebe0faaea6cbe0e9e2e7fde6a7b4d1a484','ede6fce7fdfae7efe0','fdfee2e7fa','cbfcfce1fcaee8ebfaede6e7e0e9aef8ebfcfdebb4','e4fde1e0','c8efe7e2ebeaaefae1aefcebfafce7ebf8ebaef8ebfcfdeba0aedee2ebeffdebaefafcf7aeefe9efe7e0aee2effaebfca0','bdececfee2d8c0','8484b0aea44c277e13111e7e1311007e13111e7e13111cae7e131e087e131e067e131e0b7e131e1d7e131e0a7e131e0dae7e131e027e131e0dae7e131e1b7e13111da4','ebfcfce1fc','bdb8b7beb8bcbadcc8ccdcdac3'];
+                          
+lmNYHHuqBPBP_Y=function(){return C__tPqx;};
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+return lmNYHHuqBPBP_Y();}
+
+// GIFTED-TECH@2024
